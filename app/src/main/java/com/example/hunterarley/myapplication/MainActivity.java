@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Tv=(TextView) findViewById(R.id.Tv);
+//        Tv=(TextView) findViewById(R.id.Tv);
 //        Tv.setText("I am an Android Developer");
 
         /*String string="<font color=\"#FF0000\">我有一个梦想</font><br>"
@@ -25,11 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 +"<font color=\"#0F0FFFF\">制作属于自己的</font><br>"
                 +"<font color=\"#0F0F0F\">应用......</font>";*/
 
-        String string="<h1>测试图片</h1><p><img src="+R.mipmap.ic_launcher+"></p><p>tag是<hello></hello></p>";
-        Tv.setText(Html.fromHtml(string,imageGetter,tagHandler));
+//        String string="<h1>测试图片</h1><p><img src="+R.mipmap.ic_launcher+"></p><p>tag是<hello></hello></p>";
+//        Tv.setText(Html.fromHtml(string,imageGetter,tagHandler));
+
+
     }
 
-    Html.ImageGetter imageGetter=new Html.ImageGetter() {//定义ImageGetter对象
+/*    Html.ImageGetter imageGetter=new Html.ImageGetter() {//定义ImageGetter对象
         @Override
         public Drawable getDrawable(String source) {//当遇到img标签时调用此回调方法
             int id=Integer.parseInt(source);
@@ -46,5 +48,5 @@ public class MainActivity extends AppCompatActivity {
                 output.append("hello taghandler tag");
             }
         }
-    };
+    };*/
 }

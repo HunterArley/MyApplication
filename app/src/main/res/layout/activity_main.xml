@@ -9,11 +9,23 @@
     tools:context="com.example.hunterarley.myapplication.MainActivity">
 
     <!--定义TextView控件，在id节点设置文本标签的id-->
-    <TextView
+    <!--<TextView
         android:id="@+id/Tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hello world"
-        />
+        />-->
+    <!--设置用户名的输入框，hint代表输入前的提示语-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入用户名"/>
+    <!--设置密码的输入框，hint代表输入前的提示语-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:numeric="integer"
+        android:hint="请输入密码"/>
 
 </LinearLayout>
