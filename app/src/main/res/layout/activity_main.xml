@@ -1,31 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.example.hunterarley.myapplication.MainActivity">
 
-    <!--定义TextView控件，在id节点设置文本标签的id-->
-    <!--<TextView
-        android:id="@+id/Tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="hello world"
-        />-->
-    <!--设置用户名的输入框，hint代表输入前的提示语-->
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="请输入用户名"/>
-    <!--设置密码的输入框，hint代表输入前的提示语-->
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:password="true"
-        android:numeric="integer"
-        android:hint="请输入密码"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-</LinearLayout>
+        <Button
+            android:id="@+id/btnTest1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="示例1"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btnTest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="示例2"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btnTest3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="示例3"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btnTest4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="示例4"
+            android:layout_marginTop="5dp" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
