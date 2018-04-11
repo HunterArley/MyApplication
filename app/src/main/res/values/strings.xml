@@ -2,4 +2,21 @@
     <string name="app_name">My Application</string>
     <string name="str">hi Android</string>
     <string name="string">一、注册信息和隐私保护\t\n二、使用规则\t\n三、服务内容\t\n四、知识产权和其他合法权益</string>
+
+    <string name="subject1">1、你了解Windows操作系统吗？</string>
+    <string name="subject2">2、你了解编程语言么？</string>
+    <string name="subject3">3、你知道计算机中的基本进制是什么吗？</string>
+
+    <string name="subject1_opt1">A、精通</string>
+    <string name="subject1_opt2">B、一般</string>
+    <string name="subject1_opt3">C、不了解</string>
+
+    <string name="subject2_opt1">A、精通各种语言</string>
+    <string name="subject2_opt2">B、了解C语言</string>
+    <string name="subject2_opt3">C、只会说汉语</string>
+
+    <string name="subject3_opt1">A、二进制</string>
+    <string name="subject3_opt2">B、十进制</string>
+    <string name="subject3_opt3">B、十六进制</string>
+
 </resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.example.hunterarley.myapplication.Test9Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject1" />
+
+    <!--定义RadioGroup控件，代表选择题1-->
+    <RadioGroup
+        android:id="@+id/rgSubject1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--定义RadioButton控件，代表选项1-->
+        <RadioButton
+            android:id="@+id/rbSubjectOpt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject1_opt1" />
+
+        <!--定义RadioButton控件，代表选项2-->
+        <RadioButton
+            android:id="@+id/rbSubjectOpt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject1_opt2" />
+
+        <!--定义RadioButton控件，代表选项3-->
+        <RadioButton
+            android:id="@+id/rbSubjectOpt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject1_opt3" />
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject2" />
+
+    <RadioGroup
+        android:id="@+id/rgSubject2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSubject2Opt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject2_opt1" />
+
+        <RadioButton
+            android:id="@+id/rbSubject2Opt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject2_opt2" />
+
+        <RadioButton
+            android:id="@+id/rbSubject2Opt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject2_opt3" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subject3"/>
+
+    <RadioGroup
+        android:id="@+id/rgSubject3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbSubject3Opt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject3_opt1"
+            />
+
+        <RadioButton
+            android:id="@+id/rbSubject3Opt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject3_opt2"
+            />
+
+        <RadioButton
+            android:id="@+id/rbSubject3Opt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subject3_opt3"
+            />
+    </RadioGroup>
+
+    <!--定义TextView控件，显示测试结果-->
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
