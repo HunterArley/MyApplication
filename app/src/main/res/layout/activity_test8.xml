@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hunterarley.myapplication.Test8Activity">
+
+    <!--定义RadioGroup控件，代表政治面貌选择组-->
+    <RadioGroup
+        android:id="@+id/rgPolitical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--定义RadioButton控件，代表党员选项-->
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="党员"/>
+
+        <!--定义RadioButton控件，代表群众选项-->
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="群众"/>
+
+        <!--定义RadioButton控件，代表团员选项-->
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="团员"/>
+
+    </RadioGroup>
+
+</LinearLayout>

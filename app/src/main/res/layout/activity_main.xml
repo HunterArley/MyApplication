@@ -47,6 +47,26 @@
             android:text="示例5"
             android:layout_marginTop="5dp" />
 
+        <Button
+            android:id="@+id/btnTest6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="示例6"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btnTest7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="示例7"
+            android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btnTest8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="示例8"
+            android:layout_marginTop="5dp" />
 
     </LinearLayout>
 

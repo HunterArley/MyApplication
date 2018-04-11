@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="str">hi Android</string>
+    <string name="string">一、注册信息和隐私保护\t\n二、使用规则\t\n三、服务内容\t\n四、知识产权和其他合法权益</string>
 </resources>
