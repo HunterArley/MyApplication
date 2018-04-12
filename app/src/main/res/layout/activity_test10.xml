@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hunterarley.myapplication.Test10Activity">
+
+    <!--定义一个ToggleButton的控件，
+    设置textOn，按钮开启时显示的文字，
+    设置textOff，按钮关闭时显示的文字-->
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="声音开启"
+        android:textOff="声音关闭"/>
+
+    <!--定义一个Switch控件，
+        设置textOn，按钮开启时显示的文字，
+        设置textOff，按钮关闭时显示的文字-->
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="声音开启"
+        android:textOff="声音关闭"/>
+
+</LinearLayout>
