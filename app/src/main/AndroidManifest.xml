@@ -29,7 +29,8 @@
         <activity android:name=".Test11Activity" />
         <activity android:name=".Test12Activity" />
         <activity android:name=".Test13Activity" />
-        <activity android:name=".Test14Activity"></activity>
+        <activity android:name=".Test14Activity" />
+        <activity android:name=".Test15Activity"></activity>
     </application>
 
 </manifest>
