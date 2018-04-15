@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button BtnTest1,BtnTest2,BtnTest3,BtnTest4,BtnTest5,
             BtnTest6,BtnTest7,BtnTest8,BtnTest9,BtnTest10,
             BtnTest11,BtnTest12,BtnTest13,BtnTest14,BtnTest15,
-            BtnTest16;
+            BtnTest16,BtnTest17;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         BtnTest15.setOnClickListener(this);
         BtnTest16=(Button) findViewById(R.id.btnTest16);
         BtnTest16.setOnClickListener(this);
+        BtnTest17=(Button) findViewById(R.id.btnTest17);
+        BtnTest17.setOnClickListener(this);
     }
 
     @Override
@@ -120,6 +122,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btnTest16:
                 Intent intent16=new Intent(this, Test16Activity.class);
                 startActivity(intent16);
+                break;
+            case R.id.btnTest17:
+                Intent intent17=new Intent(this, Test17Activity.class);
+                startActivity(intent17);
                 break;
         }
     }
