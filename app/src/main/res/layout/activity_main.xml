@@ -102,6 +102,13 @@
             android:layout_height="wrap_content"
             android:text="示例13"
             android:layout_marginTop="5dp" />
+
+        <Button
+            android:id="@+id/btnTest14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="示例14"
+            android:layout_marginTop="5dp" />
     </LinearLayout>
 
 
